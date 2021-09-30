@@ -1,5 +1,5 @@
 <script>
-import SimpleCalendar from './components/SimpleCalendar.vue';
+import SimpleCalendar from '@/components/SimpleCalendar.vue';
 export default {
   components: {
     SimpleCalendar,
