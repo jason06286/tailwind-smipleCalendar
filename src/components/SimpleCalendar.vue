@@ -180,6 +180,7 @@ export default {
           h-12
           text-gray-200
           relative
+          text-center
         "
         type="button"
         v-for="item in lastMonth"
@@ -199,7 +200,16 @@ export default {
         {{ item }}
       </div>
       <div
-        class="font-bold p-3 outline-none rounded-full w-12 h-12 relative"
+        class="
+          font-bold
+          p-3
+          outline-none
+          rounded-full
+          w-12
+          h-12
+          relative
+          text-center
+        "
         :class="[currentDate === item && ['bg-blue-700', 'text-white']]"
         type="button"
         v-for="item in totalDays"
@@ -222,6 +232,7 @@ export default {
           h-12
           text-gray-200
           relative
+          text-center
         "
         type="button"
         v-for="item in nextMonth"
