@@ -216,7 +216,14 @@ export default {
         :key="item"
       >
         <span
-          class="text-sm absolute -top-2 left-1/2 -translate-x-1/2"
+          class="
+            text-sm
+            absolute
+            -top-2
+            left-1/2
+            -translate-x-1/2
+            text-gray-300
+          "
           :class="{ hidden: item != 1 }"
           >{{ monthArray[monthIndex] }}</span
         >
